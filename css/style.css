@@ -73,6 +73,7 @@ h5{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  word-wrap: break-word;
   align-content: space-between;
  }
 * {
