@@ -1,6 +1,6 @@
 # Vapor-shiz
 
-##How to setup development enviroment
+## How to setup development enviroment
 
 Install https://github.com/ritwickdey/vscode-live-server
 
@@ -10,6 +10,6 @@ Click "Go live"
 
 ![plot](https://github.com/ritwickdey/vscode-live-server/blob/master/images/Screenshot/vscode-live-server-statusbar-3.jpg?raw=true)
 
-+ Enjoy the view
+🟨🟧🟦Enjoy the view🟦🟧🟨
 
-![plot(docs/2.jpg)]
+![plot](docs/2.jpg)
