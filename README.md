@@ -1,6 +1,9 @@
 # Vapor-shiz
 
-Open root of this repository in VS Code
+## Prerequisites
+
++ Install VS code
++ Open root of this repository in VS Code
 
 ## How to setup development enviroment
 
