@@ -1,5 +1,10 @@
 # Vapor-shiz
 
+## Prerequisites
+
++ Install VS code
++ Open root of this repository in VS Code
+
 ## How to setup development enviroment
 
 Install https://github.com/ritwickdey/vscode-live-server
