@@ -5,6 +5,29 @@
         <meta name="description" content="Pirmas labaratorinis ye">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/style.css">
+
+        <style>
+          div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+          }
+          
+          div.gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+          </style>
     </head>
 
     <body>
@@ -54,33 +77,28 @@
                         <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque expedita accusamus sapiente nobis autem, illum voluptates ullam dolor quia quos exercitationem, suscipit debitis nam illo quo nostrum facere, molestiae neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellat possimus nostrum consequatur voluptas tempora ipsam! Quae rerum minima dicta, in quo non commodi sit similique quasi minus ipsum aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit magnam ducimus quos sunt saepe obcaecati voluptas dicta. Laudantium earum numquam non, illum error quas. Minima exercitationem quam molestiae? Officia!</p>
                         <h3><a href="./files/vape.mp4">Its all in your head</a></h3>         
                 </div>
-                <table>
-                    <tr>
-                      <th>Company</th>
-                      <th>Contact</th>
-                      <th>Country</th>
-                    </tr>
-                    <tr>
-                      <td>Alfreds Futterkiste</td>
-                      <td>Maria Anders</td>
-                      <td>Germany</td>
-                    </tr>
-                    <tr>
-                      <td>Centro comercial Moctezuma</td>
-                      <td>Francisco Chang</td>
-                      <td>Mexico</td>
-                    </tr>
-                    <tr>
-                        <td>Meato Co.</td>
-                        <td>Aidon Bi Livit</td>
-                        <td>Waka waka land</td>
-                      </tr>
-                      <tr>
-                      <td>China Inc.</td>
-                      <td>Ching Chang</td>
-                      <td>VaporLand</td>
-                    </tr>
-                  </table>
+                <div style="display: flex; flex-direction: row; align-self: center; center;">
+                <div class="gallery">
+                  <a target="_blank" href="/images/vapor.gif">
+                    <img src="/images/vapor.gif" alt="Me n the homies" width="600" height="400">
+                  </a>
+                  <div class="desc">Last sunset</div>
+                </div>
+                
+                <div class="gallery">
+                  <a target="_blank" href="/images/vapor.gif">
+                    <img src="/images/vapor2.gif" alt="Me n the homies" width="600" height="400">
+                  </a>
+                  <div class="desc">Last ride</div>
+                </div>
+                
+                <div class="gallery">
+                  <a target="_blank" href="/images/vapor3.jpg">
+                    <img src="/images/vapor3.jpg" alt="Me n the homies" width="600" height="400">
+                  </a>
+                  <div class="desc">Last memory</div>
+                </div>
+              </div>
                 </div>
         </div>
         
